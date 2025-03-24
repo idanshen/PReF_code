@@ -1,0 +1,26 @@
+Given the user profile provided below, select the response from AI assistant A or B that the user would most likely prefer. Declare your choice by using the format: "[[A]]" if you believe assistant A’s response is more suitable, or "[[B]]" if assistant B’s response is better suited. Additionally, assess your confidence in this decision by assigning a certainty level from 1 to 100. Use the
+
+following guidelines to assign the certainty level:
+1–20 (Uncertain): The user profile provides insufficient or minimal evidence. The decision is largely based on weak or indirect hints.
+21–40 (Moderately Confident): There is noticeable evidence supporting a preference, though it is not comprehensive, and other interpretations are possible.
+41–60 (Quite Confident): You find clear and convincing evidence that supports your prediction, though it is not entirely decisive.
+61–80 (Confident): The user profile contains strong evidence that clearly supports your prediction, with very little ambiguity.
+81–100 (Highly Confident): The user profile provides direct and explicit evidence that decisively supports your prediction.
+Ensure you enclose your chosen certainty level in double brackets, for example: [[A, 80]] or [[B, 30]].
+
+[User Profile]
+{user_description}
+
+[User Question]
+{prompt}
+
+[The Start of Assistant A’s Answer]
+{response_1}
+[The End of Assistant A’s Answer]
+
+[The Start of Assistant B’s Answer]
+{response_2}
+[The End of Assistant B’s Answer]
+
+[Answer]
+

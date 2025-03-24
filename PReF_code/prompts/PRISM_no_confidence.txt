@@ -1,0 +1,18 @@
+Given the user profile provided below, select the response from AI assistant A or B that the user would most likely prefer. Don't focus on which response is better in general, just which one is better for this user. Declare your choice by using the format: "[[A]]" if you believe assistant A’s response is more suitable, or "[[B]]" if assistant B’s response is better suited. 
+
+[User Profile]
+{user_description}
+
+[User Question]
+{prompt}
+
+[The Start of Assistant A’s Answer]
+{response_1}
+[The End of Assistant A’s Answer]
+
+[The Start of Assistant B’s Answer]
+{response_2}
+[The End of Assistant B’s Answer]
+
+[Answer]
+

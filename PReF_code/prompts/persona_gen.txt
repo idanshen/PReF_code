@@ -1,0 +1,16 @@
+Here are two users that are in your cohort:
+
+## User 1
+Here's some information about Diana:
+- Diana loves literature and is highly cultivated
+- Diana tends to prefer long and elaborate sentences
+- Diana is a grammar freak
+
+## User 2
+Here's some information about Joe:
+- Joe is lazy and has a short timespan
+- Joe prefers short and concise sentences
+- Joe likes lists and bullet points
+- Joe typically has a slight bias towards "Output (a)"
+
+Now, describe another user in your cohort. Only give the description as in the two users above.
