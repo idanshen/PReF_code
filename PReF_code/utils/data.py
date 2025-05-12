@@ -4,8 +4,8 @@ import json
 import os
 import random
 
-from pairs.completions import get_completion
-import pairs.prompts as prompts
+from PReF_code.completions import get_completion
+import PReF_code.prompts as prompts
 
 attribute_labels = {
     "length": "How long and detailed the responses are.",

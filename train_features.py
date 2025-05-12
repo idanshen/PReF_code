@@ -17,15 +17,15 @@ from scipy.linalg import fractional_matrix_power
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from sklearn.metrics import roc_curve, roc_auc_score
-from pairs.models.model import Model
-from pairs.utils.training import (
+from PReF_code.models.model import Model
+from PReF_code.utils.training import (
     to_preference,
     get_batch,
     plot_roc,
     calculate_loss_MLE,
     SVD_for_sparse_matrix,
 )
-from pairs.utils.data import get_users_enums, parse_attribute_entries
+from PReF_code.utils.data import get_users_enums, parse_attribute_entries
 from configs.config import Config
 
 from accelerate import Accelerator

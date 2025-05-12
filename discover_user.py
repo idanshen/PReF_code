@@ -19,9 +19,9 @@ from datasets import load_from_disk
 from sklearn.metrics import roc_curve, roc_auc_score
 from sklearn import metrics
 
-from pairs.models.model import Model
-from pairs.utils.data import sample_user, get_pref, to_preference, to_preference_prism, get_pref_prism, get_users_enums
-from pairs.utils.inference import get_embeddings, sigmoid, sigmoid_derivative, MLE_user_weight, choose_personalized_response, max_norm_vector
+from PReF_code.models.model import Model
+from PReF_code.utils.data import sample_user, get_pref, to_preference, to_preference_prism, get_pref_prism, get_users_enums
+from PReF_code.utils.inference import get_embeddings, sigmoid, sigmoid_derivative, MLE_user_weight, choose_personalized_response, max_norm_vector
 
 
 import warnings

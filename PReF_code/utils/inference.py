@@ -4,8 +4,8 @@ import os
 from tqdm import tqdm
 import pandas as pd
 
-from pairs.completions import get_completion
-import pairs.prompts as prompts
+from PReF_code.completions import get_completion
+import PReF_code.prompts as prompts
 
 def sigmoid(x):
   """
